@@ -53,7 +53,7 @@ def predict(data: PatientData):
         prediction = model.predict(input_scaled)[0]
         result = "Diabetic" if prediction == 1 else "Not Diabetic"
         
-        print("CI in Place with webhook")
+        print("CI in Place")
         return {
             "prediction": int(prediction),
             "result": result
