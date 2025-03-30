@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'master', url: 'https://github.com/manish-bagdwal1/Jenkins_CI.git'
+                git branch: 'main', url: 'https://github.com/manish-bagdwal1/Jenkins_CI.git'
             }
         }
 
