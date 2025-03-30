@@ -1,3 +1,3 @@
 # Jenkins_CI
 
-Creating continous integration using Jenkins and Github.
+Creating continuous integration using Jenkins and Github.
