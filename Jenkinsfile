@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'sirvaiys/diabetes-jenkins'  // You can change the image name if needed
+        IMAGE_NAME = 'golu009/jenkins_ci'  // You can change the image name if needed
     }
 
     triggers {
