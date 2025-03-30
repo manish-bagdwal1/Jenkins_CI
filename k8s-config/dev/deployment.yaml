@@ -2,6 +2,7 @@ apiVersion: apps/v1 #Specifies that this is using the apps/v1 API, which is requ
 kind: Deployment # mentions the type of file
 metadata:
   name: CD-mlops-deployment # Sets the name of the Deployment.
+  namespace: argocd
 spec:
   replicas: 1  # ✅ Scale the application for redundancy, Runs two instances (Pods) of this application for high availability.
   selector:
